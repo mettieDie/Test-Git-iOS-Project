@@ -21,6 +21,7 @@
 		22108E9218F3DA5800B10DB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22108E7418F3DA5800B10DB2 /* UIKit.framework */; };
 		22108E9A18F3DA5800B10DB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22108E9818F3DA5800B10DB2 /* InfoPlist.strings */; };
 		22108E9C18F3DA5800B10DB2 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108E9B18F3DA5800B10DB2 /* Git_TestTests.m */; };
+		22108EA718F3DD2300B10DB2 /* DUKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108EA618F3DD2300B10DB2 /* DUKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		22108E9718F3DA5800B10DB2 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		22108E9918F3DA5800B10DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22108E9B18F3DA5800B10DB2 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		22108EA518F3DD2300B10DB2 /* DUKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKTest.h; sourceTree = "<group>"; };
+		22108EA618F3DD2300B10DB2 /* DUKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		22108E6418F3DA5800B10DB2 = {
 			isa = PBXGroup;
 			children = (
+				22108EA518F3DD2300B10DB2 /* DUKTest.h */,
+				22108EA618F3DD2300B10DB2 /* DUKTest.m */,
 				22108E7618F3DA5800B10DB2 /* Git Test */,
 				22108E9518F3DA5800B10DB2 /* Git TestTests */,
 				22108E6F18F3DA5800B10DB2 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22108EA718F3DD2300B10DB2 /* DUKTest.m in Sources */,
 				22108E8718F3DA5800B10DB2 /* DUKViewController.m in Sources */,
 				22108E7D18F3DA5800B10DB2 /* main.m in Sources */,
 				22108E8118F3DA5800B10DB2 /* DUKAppDelegate.m in Sources */,
